@@ -10,12 +10,12 @@ const Navbar = () => {
     }
     return(
         <nav className="navbar_container">
-            <a href="#home" className="navbar_brand">LA Cloud</a>
+            <a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_brand">LA Cloud</a>
             <ul className={isNavbarActive}>
-                <li className="navbar_item"><a href="#home" className="navbar_link">Home</a></li>
-                <li className="navbar_item"><a href="#home" className="navbar_link">Lucas Araújo</a></li>
-                <li className="navbar_item"><a href="#home" className="navbar_link">Cursos e Treinamentos</a></li>
-                <li className="navbar_item"><a href="#home" className="navbar_link">Agende um horário comigo</a></li>
+                <li className="navbar_item"><a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_link">Home</a></li>
+                <li className="navbar_item"><a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_link">Lucas Araújo</a></li>
+                <li className="navbar_item"><a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_link">Cursos e Treinamentos</a></li>
+                <li className="navbar_item"><a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_link">Agende um horário comigo</a></li>
             </ul>
             <div onClick={navbarToggle} className={navbarToggleIcon}>
                 <div id="line_01"></div>
