@@ -10,7 +10,7 @@ const Navbar = () => {
     }
     return(
         <nav className="navbar_container">
-            <a href="#" className="navbar_brand">LA Cloud</a>
+            <a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_brand">LA Cloud</a>
             <ul className={isNavbarActive}>
                 <li className="navbar_item"><a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_link">Home</a></li>
                 <li className="navbar_item"><a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_link">Lucas Araújo</a></li>
