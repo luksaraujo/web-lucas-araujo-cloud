@@ -2,7 +2,7 @@ import "./index.css";
 import React from "react";
 import BannerLucas from "../../assets/banner-lucas.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const LucasAraujo = () => {
     return(
@@ -18,6 +18,10 @@ const LucasAraujo = () => {
 
                     <a href="https://www.youtube.com/@lucasaraujocloud">
                         <FontAwesomeIcon icon={faYoutube} />
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/lucasarasouza/">
+                        <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </div>
 
