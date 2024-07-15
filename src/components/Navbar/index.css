@@ -63,6 +63,7 @@
         word-wrap: break-word;
         text-align: center;
         padding: 5px;
+        z-index: 1;
     }
 }
 
