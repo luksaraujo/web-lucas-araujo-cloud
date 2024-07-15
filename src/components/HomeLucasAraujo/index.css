@@ -1,0 +1,92 @@
+#lucas_araujo {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    min-height: calc(100vh - 218px);
+    padding: 28px 8%;
+    background-color: #181818;
+    position: relative;
+}
+
+#cta {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title {
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+#cta .description {
+    font-size: 1.2rem;
+    color: white;
+    text-align: justify;
+}
+
+.social_media_buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social_media_buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: auto;
+    height: auto;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.social_media_buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(255, 255, 255, 0.1);
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 40%;
+    z-index: 3;
+}
+
+#banner img {
+    width: auto;
+    max-height: calc(100vh - 218px);
+    border-radius: 20% 0% 0%20%;
+}
+
+.shape {
+    background-color: #fff;
+    width: 38%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20% 0% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1170px) {
+    #lucas_araujo{
+        padding-top: 0px;
+        min-height: 100%;
+    }
+
+    #banner, #banner img, #lucas_araujo .shape {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
