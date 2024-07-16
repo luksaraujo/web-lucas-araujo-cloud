@@ -6,40 +6,42 @@ import { FaBars, FaX } from "react-icons/fa6";
 
 const Navbar = () => {
     const [isMobileNavbarActive, setIsMobileNavbarActive] = useState(false);
+    const [isMobileNavbarHidden, setIsMobileNavbarHidden] = useState("mobile_navbar_container mobile_navbar_container_hidden");
 
     const handleMobileNavbar = () => {
         isMobileNavbarActive === true ? setIsMobileNavbarActive(false) : setIsMobileNavbarActive(true);
+        isMobileNavbarHidden === "mobile_navbar_container mobile_navbar_container_hidden" ? setIsMobileNavbarHidden("mobile_navbar_container mobile_navbar_container_active") : setIsMobileNavbarHidden("mobile_navbar_container mobile_navbar_container_hidden");
     }
 
-    // const [isNavbarActive, setIsNavbarActive] = useState("navbar_menu");
-    // const [navbarToggleIcon, setNavbarToggleIcon] = useState("navbar_toggler");
-    // const navbarToggle = () => {
-    //     isNavbarActive === 'navbar_menu' ? setIsNavbarActive('navbar_menu navbar_active') : setIsNavbarActive('navbar_menu');
-    //     navbarToggleIcon === 'navbar_toggler' ? setNavbarToggleIcon('navbar_toggler toggle_navbar') : setNavbarToggleIcon('navbar_toggler')
-    // }
     return(
         <nav className="navbar_container">
-            <div id="navbar_logo">
-                <Link to="/" className="navbar_link"><LogoFull /></Link>
+            <div id="desktop_navbar_container">
+                <div id="navbar_logo">
+                    <Link to="/" className="navbar_link"><LogoFull /></Link>
+                </div>
+
+                <ul className="navbar_menu" id="navbar_menu_desktop">
+                    <li className="navbar_item"><Link to="/" className="navbar_link">Home</Link></li>
+                    <li className="navbar_item"><Link to="/lucas-araujo" className="navbar_link">Lucas Araújo</Link></li>
+                    <li className="navbar_item"><Link to="/cursos-e-treinamentos" className="navbar_link">Cursos e Treinamentos</Link></li>
+                </ul>
+
+                <div id="navbar_schedule_btn_container">
+                    <button class="navbar_schedule_btn">AGENDE UM HORÁRIO</button>
+                </div>
+
+                <div id="navbar_mobile_menu" onClick={handleMobileNavbar}>
+                    {isMobileNavbarActive ? <FaX class="navbar_mobile_menu_icon" /> : <FaBars class="navbar_mobile_menu_icon" />}
+                </div>
             </div>
 
-            <ul className="navbar_menu" id="navbar_menu_desktop">
-                <li className="navbar_item"><Link to="/" className="navbar_link">Home</Link></li>
-                <li className="navbar_item"><Link to="/lucas-araujo" className="navbar_link">Lucas Araújo</Link></li>
-                <li className="navbar_item"><Link to="/cursos-e-treinamentos" className="navbar_link">Cursos e Treinamentos</Link></li>
-            </ul>
-
-            <div id="navbar_schedule_btn_container">
-                <button class="navbar_schedule_btn">AGENDE UM HORÁRIO</button>
+            <div class={isMobileNavbarHidden}>
+                <ul id="navbar_menu_mobile">
+                    <li><Link to="/" className="navbar_link" onClick={handleMobileNavbar}>Home</Link></li>
+                    <li><Link to="/lucas-araujo" className="navbar_link" onClick={handleMobileNavbar}>Lucas Araújo</Link></li>
+                    <li><Link to="/cursos-e-treinamentos" className="navbar_link" onClick={handleMobileNavbar}>Cursos e Treinamentos</Link></li>
+                </ul>
             </div>
-
-            <div id="navbar_mobile_menu" onClick={handleMobileNavbar}>
-                {isMobileNavbarActive ? <FaX class="navbar_mobile_menu_icon" /> : <FaBars class="navbar_mobile_menu_icon" />}
-            </div>
-
-            {/* <a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_brand">LA Cloud</a>
-            <ul className={isNavbarActive}></ul>
-            <div onClick={navbarToggle} className={navbarToggleIcon}></div> */}
         </nav>
     );
 };
