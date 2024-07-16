@@ -26,7 +26,6 @@ const LucasAraujo = () => {
 
     return(
         <section id="lucas_araujo">
-            <div className="shape"></div>
             <div id="cta">
                 <h1 className="title">Lucas Araújo</h1>
                 
