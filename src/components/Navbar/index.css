@@ -34,6 +34,16 @@
     margin-right: 0;
 }
 
+#navbar_mobile_menu{
+  display: none;
+}
+
+.navbar_mobile_menu_icon {
+  cursor: pointer;
+  color: white;
+  font-size: 1.8rem;
+}
+
 .navbar_schedule_btn {
   align-items: center;
   background-clip: padding-box;
@@ -77,4 +87,15 @@
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
+}
+
+@media screen and (max-width: 1150px) {
+  #navbar_mobile_menu {
+    display: block;
+  }
+
+  #navbar_schedule_btn_container,
+  #navbar_menu_desktop {
+    display: none;
+  }
 }
