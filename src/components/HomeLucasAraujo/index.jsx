@@ -31,15 +31,15 @@ const LucasAraujo = () => {
                 <h1 className="title">Lucas Araújo</h1>
                 
                 <div class="social_media_buttons">
-                    <a href="https://instagram.com/luks.araujo_/">
+                    <a href="https://instagram.com/luks.araujo_/" target="_blank">
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
 
-                    <a href="https://www.youtube.com/@lucasaraujocloud">
+                    <a href="https://www.youtube.com/@lucasaraujocloud" target="_blank">
                         <FontAwesomeIcon icon={faYoutube} />
                     </a>
 
-                    <a href="https://www.linkedin.com/in/lucasarasouza/">
+                    <a href="https://www.linkedin.com/in/lucasarasouza/" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </div>

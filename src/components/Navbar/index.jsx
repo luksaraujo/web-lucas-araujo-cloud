@@ -1,5 +1,5 @@
 import "./index.css";
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import LogoFull from "../LogoFull";
 
@@ -23,7 +23,7 @@ const Navbar = () => {
             </ul>
 
             <div id="navbar_schedule_btn_container">
-                <button class="navbar_schedule_btn" role="button">AGENDE UM HORÁRIO</button>
+                <button class="navbar_schedule_btn">AGENDE UM HORÁRIO</button>
             </div>
 
             {/* <a href="https://app-la-cloud-prod-brso-01.azurewebsites.net" className="navbar_brand">LA Cloud</a>
