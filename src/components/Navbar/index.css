@@ -37,12 +37,12 @@
 .navbar_schedule_btn {
   align-items: center;
   background-clip: padding-box;
-  background-color: #fa6400;
+  background-color: #dcbe64;
   border: 1px solid transparent;
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   display: inline-flex;
   font-size: 16px;
@@ -64,8 +64,9 @@
 
 .navbar_schedule_btn:hover,
 .navbar_schedule_btn:focus {
-  background-color: #fb8332;
+  background-color: #ae814e;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: white;
 }
 
 .navbar_schedule_btn:hover {
