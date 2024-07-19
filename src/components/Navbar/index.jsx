@@ -40,7 +40,9 @@ const Navbar = () => {
                     <li><Link to="/" className="navbar_link" onClick={handleMobileNavbar}>Home</Link></li>
                     <li><Link to="/lucas-araujo" className="navbar_link" onClick={handleMobileNavbar}>Lucas Araújo</Link></li>
                     <li><Link to="/cursos-e-treinamentos" className="navbar_link" onClick={handleMobileNavbar}>Cursos e Treinamentos</Link></li>
+                    <li><Link to="/schedule" className="navbar_link" onClick={handleMobileNavbar}>Agende um Horário</Link></li>
                 </ul>
+                
             </div>
         </nav>
     );
