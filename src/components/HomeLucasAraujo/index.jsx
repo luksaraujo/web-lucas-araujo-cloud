@@ -1,6 +1,6 @@
 import "./index.css";
 import React, { useState, useEffect } from "react";
-import BannerLucas from "../../assets/banner-lucas.jpg";
+import BannerLucas from "../../assets/banner-lucas-podcast.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
