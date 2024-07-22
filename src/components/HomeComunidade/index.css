@@ -1,0 +1,104 @@
+#comunidade_cloud_alliance {
+    background-color: #fff;
+    padding: 20px 8%;
+    width: 100%;
+    display: flex;
+}
+
+#home_cca_title {
+    text-align: left;
+}
+
+#home_cca_title > h1 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+#home_cca_title > h1 > span {
+    color: #fa6400;
+}
+
+#home_cca_text {
+    width: calc(100% - 500px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#home_cca_img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#home_cca_img > img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#home_cca_cta {
+    display: flex;
+    justify-content: center;
+}
+
+#home_cca_text_text {
+    padding-right: 10%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#home_cca_text > div {
+    margin-bottom: 35px;
+}
+
+#home_cca_text > div:last-child {
+    margin-bottom: 0;
+}
+
+#home_cca_cta_button {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  text-transform: uppercase;
+}
+
+#home_cca_cta_button:hover,
+#home_cca_cta_button:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+#home_cca_cta_button:hover {
+  transform: translateY(-1px);
+}
+
+#home_cca_cta_button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
