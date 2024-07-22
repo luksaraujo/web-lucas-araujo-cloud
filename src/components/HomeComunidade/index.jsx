@@ -5,6 +5,9 @@ import CCALogo from "../../assets/cloud-alliance-v1.0.png";
 const CloudAlliance = () => {
     return(
         <section id="comunidade_cloud_alliance">
+            <div class="home_cca_img" id="home_cca_img_up">
+                <img src={CCALogo} alt="Cloud Alliance" />
+            </div>
             <div id="home_cca_text">
                 <div id="home_cca_title">
                     <h1><span>Comunidade</span><br />Cloud Alliance</h1>
@@ -16,7 +19,7 @@ const CloudAlliance = () => {
                     <button id="home_cca_cta_button">Quero entrar pra cloud alliance</button>
                 </div>
             </div>
-            <div id="home_cca_img">
+            <div class="home_cca_img" id="home_cca_img_down">
                 <img src={CCALogo} alt="Cloud Alliance" />
             </div>
         </section>

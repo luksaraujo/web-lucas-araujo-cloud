@@ -27,14 +27,18 @@
     align-items: start;
 }
 
-#home_cca_img {
+.home_cca_img {
     max-width: 500px;
     max-height: 500px;
 }
 
-#home_cca_img > img {
+.home_cca_img > img {
     max-width: 500px;
     max-height: 500px;
+}
+
+#home_cca_img_up {
+    display: none;
 }
 
 #home_cca_cta {
@@ -101,4 +105,50 @@
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
+}
+
+@media screen and (max-width: 1150px) {
+    #home_cca_img_up {
+        display: inline;
+    }
+
+    #home_cca_img_down {
+        display: none;
+    }
+
+    #comunidade_cloud_alliance {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #home_cca_text {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #home_cca_text_text {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #home_cca_title {
+        text-align: center;
+    }
+
+    #home_cca_title > h1 {
+        font-size: 30px;
+    }
+
+    .home_cca_img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .home_cca_img > img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
 }
