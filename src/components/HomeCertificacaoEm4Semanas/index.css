@@ -1,0 +1,42 @@
+#home-four-weeks-certification {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    background-color: #181818;
+    justify-content: center;
+}
+
+#hfwc_image > img {
+    max-width: 300px;
+    max-height: 460px;
+    border-radius: 50px;
+}
+
+#hfwc_text > *:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+#hfwc_text {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 700px;
+    margin-left: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hfwc_text > h1 {
+    color: #dcbe64;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 35px;
+}
+
+#hfwc_text > p {
+    text-align: justify;
+    color: white;
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
+
