@@ -26,20 +26,19 @@ const LucasAraujo = () => {
 
     return(
         <section id="lucas_araujo">
-            <div className="shape"></div>
             <div id="cta">
                 <h1 className="title">Lucas Araújo</h1>
                 
                 <div class="social_media_buttons">
-                    <a href="https://instagram.com/luks.araujo_/">
+                    <a href="https://instagram.com/luks.araujo_/" target="_blank" rel="noreferrer noopener">
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
 
-                    <a href="https://www.youtube.com/@lucasaraujocloud">
+                    <a href="https://www.youtube.com/@lucasaraujocloud" target="_blank" rel="noreferrer noopener">
                         <FontAwesomeIcon icon={faYoutube} />
                     </a>
 
-                    <a href="https://www.linkedin.com/in/lucasarasouza/">
+                    <a href="https://www.linkedin.com/in/lucasarasouza/" target="_blank" rel="noreferrer noopener">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </div>

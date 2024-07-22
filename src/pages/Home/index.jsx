@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../../components/Header";
 import LucasAraujo from "../../components/HomeLucasAraujo";
+import ComunidadeCloudAlliance from "../../components/HomeComunidade";
 
 const HomePage = () => {
     return(
         <>
-            <Header />
             <div id="content">
+                <ComunidadeCloudAlliance />
                 <LucasAraujo />
             </div>
         </>
