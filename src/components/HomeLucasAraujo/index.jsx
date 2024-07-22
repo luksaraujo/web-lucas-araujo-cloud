@@ -45,7 +45,7 @@ const LucasAraujo = () => {
 
                 <p className="description">
                     Aos {age} anos, Lucas Araújo é hoje considerado <b>um dos melhores
-                    especialistas técnicos</b> e de instrução <b>em tecnologias Microsoft</b>
+                    especialistas técnicos</b> e de instrução <b>em tecnologias Microsoft </b>
                     do Brasil.<br/><br/>Com mais de {azureCertificationsAmount} certificações
                     em todos os níveis de conhecimento do Microsoft Azure, Lucas <b>ensina de
                     uma maneira única</b> aplicando a técnica DDL (Depth Detailed Learning),
