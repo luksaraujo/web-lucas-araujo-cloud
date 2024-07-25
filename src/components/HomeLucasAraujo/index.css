@@ -18,7 +18,7 @@
 
 #cta .title {
     font-size: 2.5rem;
-    color: white;
+    color: #dcbe64;
     text-transform: uppercase;
 }
 
@@ -26,6 +26,10 @@
     font-size: 1.1rem;
     color: white;
     text-align: justify;
+}
+
+#cta_description_diferencial {
+    color: #dcbe64;
 }
 
 .social_media_buttons {

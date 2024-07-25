@@ -52,7 +52,7 @@ const LucasAraujo = () => {
                     que foi trazida dos Estados Unidos e aprimorada pelo especialista
                     brasileiro, focando no <b>ensino profundo e detalhado dos conteúdos
                     abordados</b>, onde a teoria se une à prática e <b>capacita os melhores
-                    profissionais do mercado</b>.<br/><br/><b>O DIFERENCIAL</b><br/><br/>
+                    profissionais do mercado</b>.<br/><br/><b><span id="cta_description_diferencial">O DIFERENCIAL</span></b><br/><br/>
                     Lucas Araújo é um mestre no ensino da computação em nuvem, unindo sua
                     experiência prática em projetos das mais variadas complexidades e tamanhos,
                     realizados para inúmeras multinacionais, com a arte de ensinar, alcança
