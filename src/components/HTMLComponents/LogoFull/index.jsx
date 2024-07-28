@@ -1,7 +1,7 @@
 import "./index.css";
 import React from "react";
-import Logo from "../../assets/logo/logo-icon-golden.png";
-import Text from "../../assets/logo/logo-text-golden.png";
+import Logo from "../../../assets/logo/logo-icon-golden.png";
+import Text from "../../../assets/logo/logo-text-golden.png";
 
 const LogoFull = () => {
     return(
