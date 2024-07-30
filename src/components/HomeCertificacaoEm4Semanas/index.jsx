@@ -18,7 +18,7 @@ const HomeCertificacaoEm4Semanas = () => {
                     tempo recorde. Todos os nossos treinamentos envolvem teoria, 
                     prática e simulados das provas oficiais.
                 </p>
-                <div>
+                <div id="hce4s-button">
                     <CustomOrageButton text="Acessar Treinamentos" />
                 </div>
                 
