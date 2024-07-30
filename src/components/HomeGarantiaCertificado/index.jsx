@@ -23,6 +23,7 @@ const HomeGarantiaCertificado = () => {
                     </p>
                 </div>
                 <div className="hgc-divisor"></div>
+                <hr className="hgc-hr-divisor" />
                 <div className="hgc-right">
                     <img src={SeloGarantia} alt="Selo de Garantia de 7 Dias" />
                     <h1>Garantia de 7 Dias</h1>
@@ -35,7 +36,7 @@ const HomeGarantiaCertificado = () => {
                 </div>
             </div>
             <hr />
-            <div className="hgc-container-content">
+            <div className="hgc-container-content" id="hgc-last-container-content">
                 <div className="hgc-left">
                     <img src={WhatsAppIcon} alt="Logo do Whatsapp" />
                     <h1>Comunidade Privada</h1>
@@ -47,7 +48,8 @@ const HomeGarantiaCertificado = () => {
                     </p>
                 </div>
                 <div className="hgc-divisor"></div>
-                <div className="hgc-right">
+                <hr className="hgc-hr-divisor" />
+                <div className="hgc-right" id="hgc-discount">
                     <img src={DiscountIcon} alt="Ícone de desconto" />
                     <h1>Descontos Futuros</h1>
                     <p>

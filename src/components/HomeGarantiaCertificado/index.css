@@ -59,13 +59,17 @@
     color: #181818;
 }
 
-#garantia-certificado > hr {
+#garantia-certificado > hr, .hgc-hr-divisor {
     height: 2px;
     background-color: #181818;
     border: none;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 20px;
+}
+
+.hgc-hr-divisor {
+    display: none;
 }
 
 #hgc-title > h1 {
@@ -77,4 +81,42 @@
     text-align: center;
     margin-top: 40px;
     margin-bottom: 50px;
+}
+
+#hgc-last-container-content {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .hgc-divisor {
+        display: none;
+    }
+
+    .hgc-container-content {
+        flex-direction: column;
+    }
+
+    .hgc-left, .hgc-right {
+        width: 100%;
+    }
+
+    .hgc-left > p, .hgc-right > p {
+        padding: 0;
+    }
+
+    #garantia-certificado > hr, .hgc-hr-divisor {
+        margin: 50px 0;
+    }
+
+    .hgc-hr-divisor {
+        display: block;
+    }
+
+    #hgc-discount {
+        margin-bottom: 45px;
+    }
+
+    #hgc-last-container-content {
+        margin-bottom: 0;
+    }
 }
