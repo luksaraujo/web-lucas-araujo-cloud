@@ -1,6 +1,6 @@
 import React from "react";
 import LucasAraujo from "../../components/HomeLucasAraujo";
-import ComunidadeCloudAlliance from "../../components/HomeComunidade";
+//import ComunidadeCloudAlliance from "../../components/HomeComunidade";
 import HomeCertificacaoEm4Semanas from "../../components/HomeCertificacaoEm4Semanas";
 import HomeGarantiaCertificado from "../../components/HomeGarantiaCertificado";
 
