@@ -38,7 +38,7 @@ const Navbar = () => {
             <div class={isMobileNavbarHidden}>
                 <ul id="navbar_menu_mobile">
                     <li><Link to="/" className="navbar_link" onClick={handleMobileNavbar}>Home</Link></li>
-                    <li className="navbar_item"><a href="#lucas_araujo" className="navbar_link">Lucas Araújo</a></li>
+                    <li><a href="#lucas_araujo" className="navbar_link">Lucas Araújo</a></li>
                     <li><Link to="/cursos-e-treinamentos" className="navbar_link" onClick={handleMobileNavbar}>Mentorias e Treinamentos</Link></li>
                     <li><Link to="/schedule" className="navbar_link" onClick={handleMobileNavbar}>Agende um Horário</Link></li>
                 </ul>
