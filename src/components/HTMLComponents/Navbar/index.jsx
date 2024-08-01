@@ -23,7 +23,7 @@ const Navbar = () => {
                 <ul className="navbar_menu" id="navbar_menu_desktop">
                     <li className="navbar_item"><Link to="/" className="navbar_link">Home</Link></li>
                     <li className="navbar_item"><a href="#lucas_araujo" className="navbar_link">Lucas Araújo</a></li>
-                    <li className="navbar_item"><Link to="/cursos-e-treinamentos" className="navbar_link">Cursos e Treinamentos</Link></li>
+                    <li className="navbar_item"><Link to="/cursos-e-treinamentos" className="navbar_link">Mentorias e Treinamentos</Link></li>
                 </ul>
 
                 <div id="navbar_schedule_btn_container">
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <ul id="navbar_menu_mobile">
                     <li><Link to="/" className="navbar_link" onClick={handleMobileNavbar}>Home</Link></li>
                     <li className="navbar_item"><a href="#lucas_araujo" className="navbar_link">Lucas Araújo</a></li>
-                    <li><Link to="/cursos-e-treinamentos" className="navbar_link" onClick={handleMobileNavbar}>Cursos e Treinamentos</Link></li>
+                    <li><Link to="/cursos-e-treinamentos" className="navbar_link" onClick={handleMobileNavbar}>Mentorias e Treinamentos</Link></li>
                     <li><Link to="/schedule" className="navbar_link" onClick={handleMobileNavbar}>Agende um Horário</Link></li>
                 </ul>
                 
