@@ -3,6 +3,7 @@ import LucasAraujo from "../../components/HomeLucasAraujo";
 //import ComunidadeCloudAlliance from "../../components/HomeComunidade";
 import HomeCertificacaoEm4Semanas from "../../components/HomeCertificacaoEm4Semanas";
 import HomeGarantiaCertificado from "../../components/HomeGarantiaCertificado";
+import Footer from "../../components/HTMLComponents/Footer";
 
 const HomePage = () => {
     return(
@@ -12,6 +13,7 @@ const HomePage = () => {
                 <HomeGarantiaCertificado />
                 <LucasAraujo />
                 {/*<ComunidadeCloudAlliance />*/}
+                <Footer />
             </div>
         </>
     );

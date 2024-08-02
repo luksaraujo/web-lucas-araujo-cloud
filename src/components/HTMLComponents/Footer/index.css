@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#footer_logo > .lac-logo-icon {
+    max-width: 40px;
+    max-height: 40px;  
+}
+
+#footer_logo > .lac-logo-text {
+    max-width: 143.39px;
+}
+
+#footer_logo > *:not(:last-child) {
+    margin-right: 10px;
+}
+
+#footer_logo {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
