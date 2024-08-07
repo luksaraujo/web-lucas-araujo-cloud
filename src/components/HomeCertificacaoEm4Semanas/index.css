@@ -4,6 +4,7 @@
     display: flex;
     background-color: #181818;
     justify-content: center;
+    height: 100vh;
 }
 
 #hfwc_image > img {
