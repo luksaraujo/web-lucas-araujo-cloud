@@ -60,7 +60,6 @@
     justify-content: end;
     width: 28%;
     z-index: 3;
-    margin-left: 20px;
 }
 
 #banner img {
@@ -84,5 +83,11 @@
         text-align: center;
         align-items: center;
         margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    #banner {
+        margin-left: 20px;
     }
 }
