@@ -60,6 +60,7 @@
     justify-content: end;
     width: 28%;
     z-index: 3;
+    margin-left: 20px;
 }
 
 #banner img {
